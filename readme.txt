@@ -2,7 +2,7 @@
 
 gh extension install devatdawn/gh-fish
 
-    Run the following to install the gh-fish ghcs ghce aliases automatically:
+    Run the following to install the gh-fish ghcs ghce aliases automatically (existing shells will not have `ghcs` but new ones will):
 
 gh fish alias
 
@@ -10,7 +10,7 @@ gh fish alias
 
 source ~/.local/share/gh/extensions/gh-fish/gh-copilot-alias.fish
 
-    Or
+    Or (this will work instantly in the current shell)
 
 gh fish source | source
 
